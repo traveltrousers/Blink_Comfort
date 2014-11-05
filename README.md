@@ -15,6 +15,6 @@ Ideally the turn would wait until the 'blinking eyes' are closed but I haven't f
 
 Suggestions please!
 
-The compiled code is also in the directory or just download the code and play around with it.
+The compiled code is also in the directory or just download the code and play around with it. There are only 6 extra files, 2 animations, 2 animators and 2 scripts to play the animations when Q or E are pressed, otherwise the code is vanilla 0.4.3 Tuscany.
 
 Using Unity 4.6 B 21 and 0.4.3 from Oculus.
