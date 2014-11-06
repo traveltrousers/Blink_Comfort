@@ -35,8 +35,6 @@ public class OVRPlayerController : MonoBehaviour
 	/// </summary>
 	public float Acceleration = 0.1f;
 
-
-
 	/// <summary>
 	/// The rate of damping on movement.
 	/// </summary>
@@ -61,11 +59,6 @@ public class OVRPlayerController : MonoBehaviour
 	/// The rate of rotation when using the keyboard.
 	/// </summary>
 	public float RotationRatchet = 45.0f;
-
-	/// <summary>
-	/// The pause while turning when using the keyboard.
-	/// </summary>
-	public float RotationPause = 0.3f;
 
 	/// <summary>
 	/// The player's current rotation about the Y axis.
@@ -254,13 +247,11 @@ public class OVRPlayerController : MonoBehaviour
 
 		//Use keys to ratchet rotation xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 		if (Input.GetKeyDown (KeyCode.Q)) 
-			YRotation -= RotationRatchet;
+			StartCoroutine(WaitAndTurnL());  
+
 						
-
 		if (Input.GetKeyDown (KeyCode.E)) 
-
-			YRotation += RotationRatchet;
-
+			StartCoroutine(WaitAndTurnR());  
 
 		float rotateInfluence = SimulationRate * Time.deltaTime * RotationAmount * RotationScaleMultiplier;
 
@@ -412,8 +403,17 @@ public class OVRPlayerController : MonoBehaviour
 		YRotation = 0.0f;
 	}
 
-
+	IEnumerator WaitAndTurnR()
+	{
+		yield return new WaitForSeconds(0.15f);
+		
+		YRotation += RotationRatchet;
 	}
 
-
-
+	IEnumerator WaitAndTurnL()
+	{
+		yield return new WaitForSeconds(0.15f);
+		
+		YRotation -= RotationRatchet;
+	}
+	}
