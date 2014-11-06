@@ -11,9 +11,7 @@ A lower 'sample' number will make the lids close slower, high is faster.
 
 A figure of 67 gives a speed of around 300ms.
 
-Ideally the turn would wait until the 'blinking eyes' are closed but I haven't found a quick method of delaying the Yrotation for 150ms.
-
-Suggestions please!
+If you change this figure then you need to alter to the delay at the bottom of the OVRPlayerController script...
 
 The compiled code is also in the directory or just download the code and play around with it. There are only 6 extra files, 2 animations, 2 animators and 2 scripts to play the animations when Q or E are pressed, otherwise the code is vanilla 0.4.3 Tuscany.
 
