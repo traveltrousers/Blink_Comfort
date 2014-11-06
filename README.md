@@ -22,6 +22,9 @@ If you just want the exe download it here :  http://www.feelthree.com/downloads/
 TO DO/TRY
 
 Dark translucent eye lids instead of black
+
 Grey eye lids instead of black
+
 Allow on the fly change of speed for turning by 50ms increments
+
 Blink on camera reset with variable speed
