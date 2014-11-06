@@ -1,4 +1,4 @@
-Blink_Comfort
+Blink_Comfort 0.1
 =============
 
 This is a simple test to add 'blink comfort' turning in the Oculus Tuscany Demo.
