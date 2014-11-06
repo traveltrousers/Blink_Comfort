@@ -28,3 +28,6 @@ Grey eye lids instead of black
 Allow on the fly change of speed for turning by 50ms increments
 
 Blink on camera reset with variable speed
+
+If you want to copy this idea from scratch I suggest you watch this video first :
+https://www.youtube.com/watch?v=WXKzeZmB9Zc
