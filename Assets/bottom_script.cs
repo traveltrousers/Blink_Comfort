@@ -5,6 +5,7 @@ public class bottom_script : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		renderer.enabled = true;
 	}
 	
 	void Update()
