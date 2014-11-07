@@ -19,7 +19,7 @@ The compiled code is also in the directory or just download the code and play ar
 
 Using Unity 4.6 B 21 and 0.4.3 from Oculus.
 
-If you just want the exe download it here :  http://www.feelthree.com/downloads/blink_test.rar
+If you just want the exe download it here :  http://www.feelthree.com/downloads/Blink_Comfort.rar
 
 TO DO/TRY
 
