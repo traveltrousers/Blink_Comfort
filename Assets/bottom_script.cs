@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class bottom_script : MonoBehaviour {
@@ -13,7 +13,21 @@ public class bottom_script : MonoBehaviour {
 		//Use keys to ratchet rotation
 		if (Input.GetKeyDown(KeyCode.Q))
 			animation.Play("bottom_lid");
+
 		if (Input.GetKeyDown(KeyCode.E))
 			animation.Play("bottom_lid");
+
+		if (Input.GetKeyDown(KeyCode.W))
+			animation.Play("bottom_lid");
+
+		if (Input.GetKeyUp(KeyCode.W))
+			animation.Play("bottom_lid");
+
+		if (Input.GetKeyDown(KeyCode.S))
+			animation.Play("bottom_lid");
+
+		if (Input.GetKeyUp(KeyCode.S))
+			animation.Play("bottom_lid");
+
 	}
 }
