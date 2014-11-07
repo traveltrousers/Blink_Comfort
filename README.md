@@ -1,4 +1,4 @@
-Blink_Comfort 0.2
+Blink_Comfort 0.2 + Flash Comfort
 =============
 
 This is a simple test to add 'blink comfort' turning in the Oculus Tuscany Demo.
@@ -47,3 +47,15 @@ Blurred eyelid edges.
 
 If you want to copy this idea from scratch I suggest you watch this video first :
 https://www.youtube.com/watch?v=WXKzeZmB9Zc
+
+=============
+
+I also found some interesting research conducted by the US Army Aeromedical Research Laboratory in 2007 which tested subjects susceptibility to motion sickness by using LCD shutter glasses closing at a rate of 4 or 8hz for 10ms while people tried to read a map in a moving helicopter. 19 out of 20 people reported less nausea...
+
+I created another simple demo to re-create this simulation and would be interested in hearing if anyone finds it useful... http://www.feelthree.com/downloads/flash_test.rar
+
+You can change the frequency with Z (quicker) and X. Initially it flashes about once every 19 updates... I figured that's about 4 times a second around 75hz but I'm not sure that assumption is really correct....
+
+The papers (including the scanned original report) are here :
+http://www.dtic.mil/dtic/tr/fulltext/u2/a467760.pdf
+http://www-ieem.ust.hk/dfaculty/so/pdf/Pages51-58-VIMS2007.pdf
