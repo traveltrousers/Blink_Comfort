@@ -21,6 +21,8 @@ Using Unity 4.6 B 21 and 0.4.3 from Oculus.
 
 If you just want the exe download it here :  http://www.feelthree.com/downloads/Blink_Comfort.rar
 
+A few blog posts about the phenonmenon are on my website : http://www.feelthree.com/category/motion-sickness/
+
 TO DO/TRY
 
 Grey eye lids instead of black
@@ -32,14 +34,16 @@ Blink on camera reset with variable speed
 Acceleration curves on the 'eyelids' for a more natural effect.
 
 Different coloured eyelids.
-Semi - Transparent eyelids.
 
+Semi - Transparent eyelids.
 
 Desaturating the colour in each scene on movement.
 
 Desaturating certain colours on movement.
 
 Blinking down quickly but snapping the eye open.
+
+Blurred eyelid edges.
 
 If you want to copy this idea from scratch I suggest you watch this video first :
 https://www.youtube.com/watch?v=WXKzeZmB9Zc
