@@ -1,9 +1,11 @@
-Blink_Comfort 0.1
+Blink_Comfort 0.2
 =============
 
 This is a simple test to add 'blink comfort' turning in the Oculus Tuscany Demo.
 
 Using two 'eye lids' we have a simple animation to bring them together when the user turns with Q and E.
+
+I added another set of blinks for forward and backwards motion. You also blink when you stop moving too... These are triggered by W and S... if you just want to move forward without 'blinking' then the up and down arrows are working as normal.
 
 If you wish to edit their speed select TopLid or BottomLid under OVRPlayerController and press CTRL-6 to bring up the animation window. 
 
@@ -21,13 +23,23 @@ If you just want the exe download it here :  http://www.feelthree.com/downloads/
 
 TO DO/TRY
 
-Dark translucent eye lids instead of black
-
 Grey eye lids instead of black
 
 Allow on the fly change of speed for turning by 50ms increments
 
 Blink on camera reset with variable speed
+
+Acceleration curves on the 'eyelids' for a more natural effect.
+
+Different coloured eyelids.
+Semi - Transparent eyelids.
+
+
+Desaturating the colour in each scene on movement.
+
+Desaturating certain colours on movement.
+
+Blinking down quickly but snapping the eye open.
 
 If you want to copy this idea from scratch I suggest you watch this video first :
 https://www.youtube.com/watch?v=WXKzeZmB9Zc
