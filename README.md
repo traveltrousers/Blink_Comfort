@@ -5,7 +5,7 @@ This is a simple test to add 'blink comfort' turning in the Oculus Tuscany Demo.
 
 Using two 'eye lids' we have a simple animation to bring them together when the user turns with Q and E.
 
-I added another set of blinks for forward and backwards motion. You also blink when you stop moving too... These are triggered by W and S... if you just want to move forward without 'blinking' then the up and down arrows are working as normal.
+I added another set of blinks for forward and backwards motion. You also blink when you stop moving too... These are triggered by W and S... if you just want to move forward without 'blinking' then the up and down arrows are working as normal (this is probably not ideal at the moment since you start walking immediatlely and the blink doesn't delay this like on the turn....).
 
 If you wish to edit their speed select TopLid or BottomLid under OVRPlayerController and press CTRL-6 to bring up the animation window. 
 
@@ -54,7 +54,7 @@ I also found some interesting research conducted by the US Army Aeromedical Rese
 
 I created another simple demo to re-create this simulation and would be interested in hearing if anyone finds it useful... http://www.feelthree.com/downloads/flash_test.rar
 
-You can change the frequency with Z (quicker) and X. Initially it flashes about once every 19 updates... I figured that's about 4 times a second around 75hz but I'm not sure that assumption is really correct....
+You can change the frequency with Z (quicker) and X. It runs off the FixedUpdate() function which normally runs every 0.02 seconds, so 50 times a second. If we want 8 flashes a second we need 5 open frames and 1 closed one for 6 frames in total. 6x8 is 48, pretty close to the 50 0.02 updates.
 
 The papers (including the scanned original report) are here :
 http://www.dtic.mil/dtic/tr/fulltext/u2/a467760.pdf
